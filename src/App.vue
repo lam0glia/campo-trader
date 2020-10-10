@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <vs-alert active="true">
-      Testando Vuesax
-    </vs-alert>
+    <navbar />
+    <h1>alo</h1>
   </div>
 </template>
 
 <script>
+import Navbar from './containers/Navbar'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: { Navbar }
 }
 </script>

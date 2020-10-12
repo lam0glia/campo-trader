@@ -7,6 +7,10 @@ const routes = [
     {
         path: '/',
         component: () => import('./views'),
+    },
+    {
+        path: '/stocks',
+        component: () => import('./views/Stocks'),
     }
 ]
 

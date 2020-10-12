@@ -6,9 +6,9 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Início</b-nav-item>
+        <b-nav-item href="/">Início</b-nav-item>
         <b-nav-item href="#">Portofólio</b-nav-item>
-        <b-nav-item href="#">Ações</b-nav-item>
+        <b-nav-item href="/stocks">Ações</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
